@@ -16,10 +16,10 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<LandingPage />} />
-            <Route path="/dashbord" element={<DashbordLandingPage />} />
-            <Route path="/collection" element={<CollectionPage />} />
-            <Route path="/detailcollection" element={<DetailsCollection />} />
-            <Route path="/customizedesign" element={<CustomizeDesign />} />
+            <Route path="dashbord" element={<DashbordLandingPage />} />
+            <Route path="collection" element={<CollectionPage />} />
+            <Route path="detailcollection" element={<DetailsCollection />} />
+            <Route path="customizedesign" element={<CustomizeDesign />} />
           </Routes>
         </BrowserRouter>{" "}
       </Content>
