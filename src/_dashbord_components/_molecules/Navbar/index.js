@@ -41,7 +41,7 @@ export default function Navigation() {
           </div>
           <div className="right-header">
             <button type="button" class="btn btn-header me-4">
-              <Link to="design">Design my project</Link>
+              <Link to="/myprojects">Design my project</Link>
             </button>
             <img
               src={require("../../../assets/img/user.png")}

@@ -10,7 +10,10 @@ const DashbordLandingPage = () => {
     <div>
       <DashbordHeader />
       <Projects />
-      <DesignsComponent />
+      <DesignsComponent
+        title={"Choose the design you like "}
+        texte={"Discover our latest work by categories"}
+      />
       <BecomePro />
       <ContactUs />
     </div>

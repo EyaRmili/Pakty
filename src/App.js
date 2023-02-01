@@ -7,6 +7,7 @@ import DashbordLandingPage from "./_container/dashbord_landing_page";
 import CollectionPage from "./_container/collection";
 import DetailsCollection from "./_container/details-collection";
 import CustomizeDesign from "./_container/3d_design";
+import MyProjects from "./_container/myprojects";
 
 const { Content } = Layout;
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="collection" element={<CollectionPage />} />
             <Route path="detailcollection" element={<DetailsCollection />} />
             <Route path="customizedesign" element={<CustomizeDesign />} />
+            <Route path="myprojects" element={<MyProjects />} />
           </Routes>
         </BrowserRouter>{" "}
       </Content>
