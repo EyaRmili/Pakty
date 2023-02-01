@@ -1,0 +1,41 @@
+@import "../../../variables/variables.scss";
+/*---------------------
+  Projects
+-----------------------*/
+.projects {
+  .section-title {
+    span {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: $color_brand-1;
+    }
+  }
+}
+
+.project__item {
+  img {
+    filter: drop-shadow(3.8611px 5.79164px 38.611px rgba(0, 0, 0, 0.05));
+    max-width: 227px;
+  }
+}
+
+.spad {
+  padding-top: 100px;
+}
+@media screen and (max-width: 767px) {
+  .projects {
+    .section-title {
+      text-align: center;
+      span {
+        font-size: 30px;
+      }
+    }
+    .project-items {
+      justify-content: center !important;
+      padding: 5px;
+    }
+  }
+}

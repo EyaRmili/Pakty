@@ -1,0 +1,61 @@
+@import "../../../variables/variables.scss";
+.bannerimage {
+  background-image: url("../../../assets/img/banner.png");
+  height: 484px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.btn-header {
+  border-radius: 8px;
+  padding: 12px 24px 12px 24px;
+  background-color: $color_brand-2;
+  a {
+    color: $color_brand-1;
+    text-transform: uppercase;
+    font-family: $font_family--1;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+.text-header {
+  margin-top: 110px;
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    color: $color_brand-1;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: $color_brand-1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .text-header {
+    margin-top: 5em;
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .btn-header,
+  .btn-header {
+    padding: 12px 15px 12px 15px;
+  }
+
+  .spad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

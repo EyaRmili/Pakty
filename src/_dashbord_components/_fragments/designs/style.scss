@@ -1,0 +1,40 @@
+@import "../../../variables/variables.scss";
+
+.designs-section {
+  .section-title {
+    text-align: center;
+
+    span {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 52px;
+      color: $color_brand-1;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: $color_brand-5;
+    text-align: center;
+    line-height: 2;
+  }
+}
+@media screen and (min-width:1200px){
+  .designs-section {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .designs-section {
+    .section-title {
+      span {
+        font-size: 22px;
+      }
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
